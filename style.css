@@ -167,21 +167,23 @@ nav a.active::after {
 }
 
 .hero h1 {
-  color: var(--white);
+  color: #FFFFFF;
   font-size: 2.8rem;
   margin-bottom: 1.25rem;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
 .hero h1 span {
-  color: var(--gold);
+  color: var(--gold-light);
 }
 
 .hero p {
   font-size: 1.15rem;
-  color: rgba(255,255,255,0.85);
+  color: #FFFFFF;
   max-width: 650px;
   margin: 0 auto 2rem;
   line-height: 1.8;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.2);
 }
 
 .hero-badge {
@@ -223,8 +225,8 @@ nav a.active::after {
 
 .btn-outline {
   background: transparent;
-  color: var(--white);
-  border: 2px solid rgba(255,255,255,0.3);
+  color: #FFFFFF;
+  border: 2px solid rgba(255,255,255,0.6);
 }
 
 .btn-outline:hover {
